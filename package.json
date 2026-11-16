@@ -1,0 +1,25 @@
+{
+  "name": "desafio_teste_domino",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desafio de Teste de Software \u2014 casos de teste para uma partida de Domin\u00f3 com 2 jogadores",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/tests/"
+    ]
+  }
+}
